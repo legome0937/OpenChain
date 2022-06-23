@@ -1,0 +1,754 @@
+/* font-face */
+
+@font-face {
+    font-family: Qualy-Light;
+    src: url(../fonts/font.woff2) format("woff2"), url(../fonts/font.woff) format("woff");
+}
+
+@font-face {
+    font-family: Bunya-Light;
+    src: url(../fonts/Bunya-Light.ttf);
+}
+
+@font-face {
+    font-family: Bunya-Regular;
+    src: url(../fonts/Bunya-Regular.ttf);
+}
+
+/* font-face */
+
+/* font-family and font-size */
+.bg-global {
+    background-color: #f5f5f5;
+}
+
+.text-lightgray-color {
+    --tw-text-opacity: 1;
+    color: rgba(85, 95, 109, var(--tw-text-opacity));
+}
+
+.main-font {
+    font-family: Qualy-Light;
+}
+
+.main-bold {
+    font-weight: 700;
+}
+
+.logo-font {
+    font-family: Bunya-Regular;
+}
+
+.font-13 {
+    font-size: 1.3rem;
+}
+
+.font-14 {
+    font-size: 1.4rem;
+}
+
+.font-16 {
+    font-size: 1.6rem;
+}
+
+.font-18 {
+    font-size: 1.8rem;
+}
+
+.font-20 {
+    font-size: 2rem;
+}
+
+.font-24 {
+    font-size: 2.4rem;
+}
+
+.font-28 {
+    font-size: 2.8rem;
+}
+
+.font-30 {
+    font-size: 3rem;
+}
+
+.font-34 {
+    font-size: 3.4rem;
+}
+
+.font-36 {
+    font-size: 3.6rem;
+}
+
+.font-38 {
+    font-size: 3.8rem;
+}
+
+.font-40 {
+    font-size: 4rem;
+}
+
+.font-48 {
+    font-size: 4.8rem;
+}
+
+.font-58 {
+    font-size: 5.8rem;
+}
+
+.font-72 {
+    font-size: 7.2rem;
+}
+
+/* font-family and font-size */
+
+/* font-color */
+
+.text-darkgray {
+    color: #302e2e;
+}
+
+.text-green {
+    color: #01fd38;
+}
+
+.main-color {
+    --tw-text-opacity: 1;
+    color: rgba(75, 85, 99, var(--tw-text-opacity));
+}
+
+.main-color-blue {
+    color: #10b981;
+}
+
+/* font-color */
+
+/* background */
+.bg-gradient {
+    background: linear-gradient(92.31deg, #c908f9 3.37%, #01bcf8 100%);
+}
+
+.bg-light_pink {
+    background: #7f46ff;
+}
+
+.bg-yellow {
+    background: #ebff0b;
+}
+
+.bg-chart-green {
+    background-color: #5ce1e675;
+}
+
+.navigation-bg {
+    background-color: #5de2e7;
+}
+
+.button-bg {
+    background-color: #10b981 !important;
+}
+
+.button-mousedown-bg {
+    background-color: #01919c !important;
+}
+
+.hover-bg-blue:hover {
+    background-color: #10b981 !important;
+}
+
+.bg-main-dark {
+    background: #30373f;
+}
+
+/* background */
+
+/* border */
+
+.main-border {
+    border-color: #080d32;
+}
+
+.middline-border {
+    border-color: gray;
+}
+
+.main-radius {
+    border-radius: 10px;
+}
+
+/* border */
+
+/* main-option */
+
+html,
+body {
+    width: 100%;
+    background: #d7e1ed;
+    font-family: Qualy-Light;
+    font-size: 10px;
+    font-weight: 400;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.main-container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.small-container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* main-option */
+
+.spinner-button {
+    font-size: 16px !important;
+    background-color: #10b981 !important;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.spinner-button:disabled {
+    opacity: 0.5;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+i.od-spinner {
+    animation: fa-spin 1s linear infinite;
+}
+
+.hover-transition:hover {
+    transform: scale(1.01);
+    transition: 0.2s;
+}
+
+.header-nav_items:hover {
+    background-color: #10b981;
+    border-radius: 10px;
+}
+
+.blue-border {
+    border: 2px #10b981 solid;
+}
+
+.main-btn {
+    cursor: pointer;
+    padding: 2px 15px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-radius: 15px;
+    font-family: Qualy-Light;
+    margin: 0 10px;
+    text-transform: capitalize;
+}
+
+.wallet-btn {
+    font-weight: 600;
+}
+
+.main-lineheight {
+    line-height: 40px;
+}
+
+.home-card {
+    width: 30%;
+    border-radius: 20px;
+    padding: 30px;
+    background: white;
+    box-shadow: 0px 0px 10px rgb(180, 180, 180);
+}
+
+.home-card_icon {
+    display: flex;
+    justify-content: right;
+}
+
+.games-box {
+    border-radius: 70px;
+    box-shadow: 0px 0px 10px rgb(180, 180, 180);
+    background: white;
+    padding: 40px;
+}
+
+.cetRDm {
+    align-self: center;
+    fill: rgb(255, 255, 255);
+    flex-shrink: 0;
+    margin-left: 4px;
+}
+
+.transform-card-l {
+    transform: rotate(-2.36deg);
+}
+
+.transform-card-r {
+    transform: rotate(2.36deg);
+}
+
+.footer-icons {
+    fill: black;
+}
+
+.signup-btn {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-weight: 600;
+}
+
+.login-btn {
+    border-top-left-radius: 20px;
+    border-right: 0;
+    font-weight: 600;
+    border-bottom-left-radius: 20px;
+}
+
+.profile-dropdown-btn {
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.profile-dropdown-item {
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.signup-btn:hover,
+.login-btn:hover {
+    background-color: #10b981;
+    color: white;
+}
+
+.exchange-btn {
+    border-top-left-radius: 10px;
+}
+
+.liquidity-btn {
+    border-top-right-radius: 10px;
+}
+
+.chart-container {
+    border-radius: 10px;
+}
+
+.down-arrow {
+    fill: #10b981 !important;
+}
+
+.form-title {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.mobile-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    display: none;
+    /* visibility: hidden; */
+}
+
+.scroll {
+    opacity: 0.3;
+    background-color: aqua;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.scroll:hover {
+    opacity: 1;
+}
+
+.scroll span {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -9px;
+    margin-left: -5px;
+}
+
+.full-opacity {
+    opacity: 1;
+}
+
+.google-signup-button {
+    width: 100% !important;
+    margin: auto !important;
+    background-color: #10b981 !important;
+    padding: 2px 5px !important;
+    margin-left: 0px !important;
+    font-family: Qualy-Light !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.google-login-button {
+    width: 100% !important;
+    margin: auto !important;
+    background-color: #10b981 !important;
+    padding: 2px 5px !important;
+    margin-left: 0px !important;
+    /* margin-bottom: 30px !important; */
+    font-family: Qualy-Light !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.main-button-type {
+    font-size: 1.6em !important;
+}
+
+.verify-button {
+    right: -1px;
+    top: -3px;
+}
+
+div.rememberme-container {
+    margin: 20px 0 20px 10px;
+}
+
+.divide-text {
+    display: none;
+}
+
+button:focus {
+    outline: none !important;
+    border: none !important;
+}
+
+.PhoneInputInput:focus {
+    outline: none !important;
+}
+.PhoneInputInput {
+    padding-left: 5px;
+    background: #f3f4f6;
+}
+
+.PhoneInputCountry {
+    display: inline-block;
+    margin-bottom: -0.4em;
+}
+
+.ShowPasswordIcon {
+    margin-left: -3em;
+}
+
+input.password-input {
+    padding-right: 4em;
+}
+
+input.passcode-input {
+    padding-right: 4em;
+}
+
+.account-password-container.w-half .password-input {
+    width: 50%;
+}
+
+.PhoneInputCountry {
+    display: inline;
+}
+
+#warning-message-box-for-google-login-failure {
+    padding-left: 5px;
+    display: inline-block;
+}
+
+#link-to-signup-popup {
+    font-size: 1.5em;
+}
+
+.password-input {
+    width: 100%;
+}
+
+/* Password checklist */
+div.password-checklist-container {
+    position: absolute;
+    margin: -30px 0 0 40px;
+    padding: 15px 15px 15px 15px;
+    z-index: 100;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px #10b981 solid;
+}
+
+li.sc-gsDKAQ {
+    padding-bottom: 15px;
+}
+
+.header-dropdown {
+    width: 200px;
+}
+
+.middle-line {
+    border-top: rgb(167, 167, 167) 1px solid !important;
+    width: 100%;
+}
+
+.sidebar {
+    float: left;
+    width: 17%;
+}
+
+.page-container {
+    margin-left: 18%;
+    width: 81%;
+    height: 703px;
+    background: white;
+}
+
+.main-content-container {
+    padding: 2.5em;
+}
+.main-content-container > div:focus, span:focus, p:focus, button:focus, i:focus {
+    /*caret-color: transparent;*/
+    outline: none;
+}
+
+.resize-none {
+    resize: none;
+}
+
+/**/
+#qr-account-container {
+    display: block;
+}
+
+
+/* Wallet/QR container */
+#qr-container {
+    float: right;
+    margin-right: 10%;
+}
+
+/* Wallet/Account box */
+#account-info-container {
+    float: left;
+    width: 60%;
+}
+
+#send-button-container {
+    margin-bottom: 1rem;
+}
+
+.hiddenBox {
+    display: none
+}
+
+.shownBox {
+    display: block
+}
+
+.account-global-info-container {
+    border: 2px #c1c1cc solid;
+    border-radius: 10px;
+    padding: 1em;
+    margin-bottom: 10px;
+}
+
+.floating-box {
+    position: fixed; 
+    top: 0; 
+    z-index: 100; 
+    margin-top: 1em;
+}
+
+/* .account-address-box {
+    float: left;
+} */
+
+/* .account-balance-box {
+    float: right;
+} */
+
+.lock-account-button-container {
+    float: right;
+    height: 30px;
+    margin-bottom: -40px;
+    margin-right: 1em !important;
+}
+
+.link-button {
+    cursor: pointer;
+    color: #10b981;
+}
+
+.dialog-title, .dialog-button {
+    font-size: 16px !important;
+}
+
+.page-tab-item {
+    cursor: pointer;
+}
+
+.spin-button-disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* responsive */
+@media (max-width: 1024px) {
+    html,
+    body {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 768px) {
+    html,
+    body {
+        font-size: 8px;
+    }
+
+    .exchange-content {
+        flex-direction: column !important;
+    }
+
+    .header-navgation {
+        display: none !important;
+    }
+
+    .exchange-container {
+        margin-top: 0 !important;
+    }
+
+    .mobile-nav {
+        display: block;
+    }
+
+    .responsive-part {
+        flex-direction: column;
+    }
+
+    .introduction-right-img {
+        width: 50% !important;
+    }
+
+    .responsive-full {
+        width: 90% !important;
+        margin: auto !important;
+    }
+
+    .responsive-flex-order1 {
+        order: 1;
+        margin-bottom: 30px;
+    }
+
+    .responsive-flex-order2 {
+        order: 2;
+    }
+
+    .responsive-col {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-card {
+        width: 60%;
+        margin: 30px 0;
+    }
+
+    .responsive-w-90 {
+        width: 90% !important;
+    }
+
+    .responsive-p-30 {
+        padding: 30px !important;
+    }
+
+    .transform-card-l,
+    .transform-card-r {
+        width: 45% !important;
+    }
+}
+
+@media (max-width: 414px) {
+    html,
+    body {
+        font-size: 6px;
+    }
+
+    .sign-logo {
+        width: 100px !important;
+        margin-bottom: 20px;
+    }
+
+    .signup-form {
+        flex-direction: column;
+    }
+
+    .signup-content {
+        width: 100% !important;
+        border: 0;
+    }
+
+    .auth-form {
+        width: 100%;
+    }
+
+    .main-container {
+        padding: 0 10px !important;
+    }
+
+    .small-container {
+        padding: 0 10px !important;
+    }
+
+    .games-card_box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .transform-card-l,
+    .transform-card-r {
+        width: 90% !important;
+        transform: none !important;
+    }
+
+    .footer-logo {
+        display: none !important;
+    }
+
+    .main-lineheight {
+        line-height: 25px;
+    }
+
+    .divide-text {
+        display: inline;
+    }
+
+    .middle-line-container {
+        padding: 20px 0;
+    }
+}
